@@ -1,1 +1,1 @@
-# Dochine <span style = "color:brown" > :ok_hand: </span>
+# Dochine <span style = "color:brown" > :ok_hand: <=> :godmode:</span>
