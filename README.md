@@ -1,1 +1,1 @@
-# Dochine :thumbs_up:
+# Dochine :ok_hand:
