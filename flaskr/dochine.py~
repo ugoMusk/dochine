@@ -1,0 +1,12 @@
+#!/usr/bin/env python3
+""" starting point """
+
+from flask import Flask, render_template
+
+app = Flask(__name__)
+
+@app.route("/")
+def home():
+    """ home route """
+    display ="Sue609 | ugoMusk | Sam-ke | EVC"
+    return render_template("home.html", test=display)
