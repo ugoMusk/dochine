@@ -1,2 +1,2 @@
 # Dochine <span style = "color:brown"> <:godmode:> </span>
-[![Dochine-Practice-Make-Perfect](https://img.shields.io/badge/Dochine--Practice--Make--Perfect%20(let\'s%20do%20this%20guys!)-blue?logo="D")](https://dochine.io/#https://github.com/ugoMusk/dochine)
+[![Dochine! Practice Make Perfect](https://img.shields.io/badge/Dochine--Practice--Make--Perfect%20(let\'s%20do%20this%20guys!)-blue?logo="D")](https://dochine.io/#https://github.com/ugoMusk/dochine)
