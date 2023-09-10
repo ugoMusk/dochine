@@ -5,11 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>DOCHINE</title>
-    <link>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/dochine.css') }}">
   </head>
   <body>
+    <header>
+      <img src="">
+      <select>
+        <option selected disabled>Tools</option>
+        <option>
+          <a href="/hello">HTML to PDF</a>
+        </option>
+        <option>HTML to MARKDOWN</option>
+      </select>
+    </header>
     <p>{{ logo }}</p>
-    <h1>{{ contributors }}</h1>
+    <h1 class="contrib">{{ contributors }}</h1>
     <ul>
 	    <li>{{ ugo }}</li>
 	    <li>{{ sam }}</li>
