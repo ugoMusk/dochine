@@ -17,7 +17,7 @@ class Home(View):
 
         def dispatch_request(self):
             contributors="SAMKE, SUE609, UgoMUSK, iBlossom"
-            logo="blabla.jpeg"
+            logo="Dochine"
             return render_template(self.template, logo=logo, contributors=contributors, ugo=self.ugo, sam=self.sam, sue=self.sue)
 
 app.add_url_rule("/", view_func=Home.as_view("View", "peer1", "peer2", "peer3", "class.html"))

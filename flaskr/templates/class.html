@@ -8,23 +8,42 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/dochine.css') }}">
   </head>
   <body>
-    <header>
-      <img src="">
-      <!--
-      <select>
-        <option selected disabled>Tools</option>
-        <option>
-          <a href="/hello">HTML to PDF</a>
-        </option>
-        <option>HTML to MARKDOWN</option>
-      </select>-->
+    <header class="header">
+        <div class="logo">
+          <div class="image"></div>
+          <span class="image-text">{{ logo }}</span>
+        </div>
+        <nav class="nav">
+          <div class="items">
+            <div class="clickable">
+              <span class="title">Tools</span>
+              <div class="transparency"></div>
+            </div>
+            <div id="myDropdown" class="content">
+              <a href="/hello">HTML to PDF</a>
+            </div>
+          </div>
+        </nav>
     </header>
-    <p>{{ logo }}</p>
-    <h1 class="contrib">{{ contributors }}</h1>
-    <ul>
-	    <li>{{ ugo }}</li>
-	    <li>{{ sam }}</li>
-	    <li>{{ sue }}</li>
-    </ul>
+    <div class="body">
+      <h1 class="contrib">{{ contributors }}</h1>
+      <ul>
+        <li>{{ ugo }}</li>
+        <li>{{ sam }}</li>
+        <li>{{ sue }}</li>
+      </ul>
+    </div>
+    <footer>
+    </footer>
+    <script src="../static/js/dochine.js"></script>
   </body>
 </html>
+<!--
+<select>
+  <option selected disabled>Tools</option>
+  <option>
+    <a href="/hello">HTML to PDF</a>
+  </option>
+  <option>HTML to MARKDOWN</option>
+</select>
+-->
